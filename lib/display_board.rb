@@ -8,3 +8,6 @@ def display_board(board)
        "#{board[3]} #{col} #{board[4]} #{col} #{board[5]}" + "\n" + row +
        "#{board[6]} #{col} #{board[7]} #{col} #{board[8]}"
 end
+
+b = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
+display_board(b)
